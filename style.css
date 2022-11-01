@@ -1,0 +1,143 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: linear-gradient(to bottom, #4e54c8, #8f94fb);
+    height: 100vh;
+    padding-top: 30px;
+    text-align: center;
+    box-sizing: border-box;
+    font-family: 'Segoe UI',Tahoma,Arial,sans-serif;
+    margin-bottom: 200px;
+}
+
+.box1 {
+    background: linear-gradient(to left, #4e54c8, #8f94fb);
+    color: white;
+    text-transform: uppercase;
+    font-weight: 800;
+    font-size: larger;
+    height: 400px;
+    width: 187px;
+    padding-top: 20px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+p, li{
+    color: black;
+    font-size: small;
+    text-transform: none;
+    font-weight: 500;
+    padding: 20px;
+}
+
+.price {
+    font-size: 40px;
+}
+
+li {
+    list-style-type: none;
+    line-height: 1px;
+}
+
+.box2 {
+    background: linear-gradient(to top, #4e54c8, #8f94fb);
+    color: white;
+    text-transform: uppercase;
+    font-weight: 800;
+    font-size: larger;
+    height: 475px;
+    width: 187px;
+    padding-top: 20px;
+    flex-direction: column;
+    position: relative;
+}
+
+.box3 {
+    background: #4e54c8;
+    color: white;
+    text-transform: uppercase;
+    font-weight: 800;
+    font-size: larger;
+    height: 350px;
+    width: 187px;
+    padding-top: 15px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+
+a {
+    background: yellow;
+    color: black;
+    padding: 25px;
+    display: flex;
+    flex-direction: column-reverse;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 4px;
+    font-size: medium;
+    text-transform: none;
+    font-weight: 500;
+    max-width: 150px;
+    max-height: 50px;
+    position: absolute;
+    top: 81%;
+    margin-left: 33px;
+    align-content: center;
+    justify-content: center;
+}
+
+.dog {
+    background: yellow;
+    color: black;
+    padding: 25px;
+    display: flex;
+    flex-direction: column-reverse;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 4px;
+    font-size: medium;
+    text-transform: none;
+    font-weight: 500;
+    max-width: 165px;
+    max-height: 50px;
+    position: absolute;
+    top: 84%;
+    margin-left: 12px;
+    align-content: center;
+    justify-content: center;
+}
+
+.fish {
+    background: yellow;
+    color: black;
+    height: 50px;
+    width: 135px;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 4px;
+    font-size: medium;
+    text-transform: none;
+    font-weight: 500;
+    max-width: 150px;
+    max-height: 50px;
+    position: absolute;
+    top: 78%;
+    margin-left: 33px;
+
+}
